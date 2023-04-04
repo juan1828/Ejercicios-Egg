@@ -26,7 +26,9 @@ public class EjerciciosGuia4 {
     public static void cod(String frase) {
        String frase2;
        for (int i=0; i< frase.length();i++   ) {
-       frase2= frase.substring(i,i+1);
+       
+           frase2= frase.substring(i,i+1);
+           frase2=frase2.toLowerCase();
        switch (frase2) {
            case "a":
                frase2= "@";
