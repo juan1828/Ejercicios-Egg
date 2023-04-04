@@ -23,7 +23,7 @@ public class ejercicio4 {
     
     public static boolean FuncionPrimo(int num){
         boolean primo = true;
-        int j = 0;
+        
         int i;
         for (i = 2; i < num; i++) {
             if (num % i == 0) {
